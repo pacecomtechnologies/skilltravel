@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<!--****************************************css links **************************************-->
+ 	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/style.css">
+	  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	  <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/select.semanticui.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/dataTables.semanticui.min.css">
+
+<!--****************************************js & jQuery links **************************************-->
+	<script src="js/style.js"></script>
+
+	<script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script  src="js/angular.min.js"></script>
+    <script src="js/app.js"></script>
+
+	<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="js/dataTables.semanticui.min.js"></script>
+	<script type="text/javascript" src="js/semantic.min.js"></script>
+	<script type="text/javascript" src="js/datatables.select.min.js"></script>
+
+</head>
+<body>
+	<header>
+<!--*****************************************************start: navbar ******************************************************-->
+	<section class="navbar-section">
+		<nav class="navbar navbar-inverse">
+		  	<div class="container-fluid mobile-nav">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <h class="icon-bar"></h>
+				        <h class="icon-bar"></h>
+				        <h class="icon-bar"></h>                        
+			      </button>
+			      <a class="navbar-brand" href="#"><img src="images/logo.png" class="logo-pic"></a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="myNavbar">
+				    <ul class="nav navbar-nav">
+				        <li class="nav-list active"><a href="#"><i class="fa fa-users mr5" aria-hidden="true"></i>REQUIREMENTS</a></li>
+					    <li class="nav-list"><a href="#"><i class="fa fa-users mr5" aria-hidden="true"></i>CANDIDATES</a></li>
+				        <li class="nav-list"><a href="#"><i class="fa fa-mobile mr5" aria-hidden="true"></i>TELEPHONIC</a></li>
+				        <li class="nav-list"><a href="#"><i class="fa fa-pencil mr5" aria-hidden="true"></i>ASSESSMENT</a></li>
+				        <li class="nav-list"><a href="#"><i class="fa fa-user mr5" aria-hidden="true"></i>F2F</a></li>
+				        <li class="nav-list"><a href="#"><i class="fa fa-tag mr5" aria-hidden="true"></i>OFFER</a></li>
+				        <li class="nav-list"><a href="#"><i class="fa fa-thumbs-up mr5" aria-hidden="true"></i>HIRED</a></li>
+				    </ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+						<li class="dropdown profile">
+				           	<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<div class="pro-pic-min pull-left mtm10"><h3><b>CG</b></h3></div>
+								<h class="caret"></h></a>
+								<ul class="dropdown-menu">
+								    <li><a href="#">Page 1-1</a></li>
+								    <li><a href="#">Page 1-2</a></li>
+								    <li><a href="#">Page 1-3</a></li>
+								</ul>	
+						 </li>
+				        <li><a href="#"><i class="fa fa-question-circle mtm10" aria-hidden="true"></i></a></li>
+				    </ul>
+				 
+				    <script type="text/javascript">
+				    	$(".nav-list a").on("click", function(){
+						   $(".nav-list").removeClass("active");
+						   $(this).addClass("active");
+						});
+
+				    </script>
+				</div>
+			</div>
+  		</nav>
+  	</section>
+</header>
+<!--*****************************************************end: navbar ******************************************************-->
+
+
+<!--*****************************************************start: dashboard ******************************************************-->
+<section class="section-dashboard">
+<div class="container-fluid">
+	<div class="container zeropadding">
+		<div class="row mrt25">
+			<div class="col-md-12 zeropadding">
+				<div class="col-md-4">
+					<h3 style="color: #0d0c50">Profile</h3>
+					<div class="dashboard-profile">
+						<div class="col-lg-12 dash-pro-logo zeropadding margin-none">
+			          		<div class="req-img mr5 pull-left padding-none">
+					          	<img src="images/user.jpg">
+							</div>
+				          	<div class="req-info margin-none zeropadding">
+				          		<div class="req-contact">
+				          		<p class="req-name mrl20 zeropadding margin-none">Shweta CG</p>
+				          		<p class="req-name1 zeropadding margin-none mrl20">pacecom technologies pvt ltd</p>
+				          		<p class="req-name2 zeropadding margin-none mrl20">total exp - 3yrs</p>
+				          		<i class="fa fa-star ml10" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star " aria-hidden="true"></i>
+				          		</div>
+				          		<br>
+				          		
+				          		<div class="req-contact mrl20 mtm10">
+				          			<p class="req-id"><i class="fa fa-envelope mr5 " aria-hidden="true"></i>shweta@pacecom.co.in</p><br>
+				          			<p class="req-ph"><i class="fa fa-phone mr5" aria-hidden="true"></i>+91 9898 998 898</p>
+				          		</div>
+				          	</div>
+
+				          	<div class="col-lg-12 zeropadding margin-none">
+					          	<a href="#">
+					          		<div class="col-md-4 col-xs-4 total-reqmts zeropadding margin-none">
+						          		<h6 class="mrt10">Total Requirements</h6>
+						          		<h1 class="margin-none">17</h1>
+					          		</div>
+					          	</a>
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-apld zeropadding margin-none">
+						          		<h6 class="mrt10">Total Applied</h6>
+						          		<h1 class="margin-none">24</h1>
+						          	</div>
+					          	</a>
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-srtltd zeropadding margin-none">
+						          		<h6 class="mrt10">Total Shortlisted</h6>
+						          		<h1 class="margin-none">11</h1>
+						          	</div>
+					          	</a>
+				          	</div>
+				        </div>
+					</div><!--end dashboard-profile-->	
+				</div>
+
+					<!--**********Start: week history**********-->
+				<div class="col-md-4 table-history">
+					<h3 style="color: #0d0c50">Last week history</h3>
+					<table id="example" class="table table-striped table-bordered zeropadding margin-none" cellspacing="0" width="100%">
+					    <thead>
+					        <tr>
+					            <th style="background-color:#0d0c50;color: #fff;">Company</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Req</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Applied</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Shortlisted</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>IGS india pvt ltd</td>
+					            <td><a href="#" style="color:#347ab8">2</a></td>
+					            <td><a href="#" style="color:#5db75d">2</a></td>
+					            <td><a href="#" style="color:#3acccc">2</a></td>
+					        </tr>
+					        <tr>
+					            <td>IGS india pvt ltd</td>
+					            <td><a href="#" style="color:#347ab8">2</a></td>
+					            <td><a href="#" style="color:#5db75d">2</a></td>
+					            <td><a href="#" style="color:#3acccc">2</a></td>
+					        </tr>
+					        <tr>
+					            <td>IGS india pvt ltd</td>
+					            <td><a href="#" style="color:#347ab8">2</a></td>
+					            <td><a href="#" style="color:#5db75d">2</a></td>
+					            <td><a href="#" style="color:#3acccc">2</a></td>
+					        </tr>    
+					        <tr>
+					            <td>IGS india pvt ltd</td>
+ 								<td><a href="#" style="color:#347ab8">2</a></td>
+					            <td><a href="#" style="color:#5db75d">2</a></td>
+					            <td><a href="#" style="color:#3acccc">2</a></td>
+					        </tr>    
+					    </tbody>
+				   	</table>
+					<h6 class="link pull-right"><a href="#" style="color:#0d0c50;font-weight: bold;">View more</a></h6>
+				</div>
+
+					<!--**********end: week history**********-->
+
+				<!--**********Start: week history**********-->
+				<div class="col-md-4 table-history">
+					<h3 style="color: #0d0c50">Last month history</h3>
+					<table id="example" class="table table-striped table-bordered zeropadding margin-none" cellspacing="0" width="100%">
+					    <thead>
+					        <tr>
+					            <th style="background-color:#0d0c50;color: #fff;">Company</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Req</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Applied</th>
+					            <th style="background-color:#0d0c50;color: #fff;">Shortlisted</th>
+					        </tr>
+					    </thead>
+					    <tbody>
+					        <tr>
+					            <td>IGS india pvt ltd</td>
+					            <td><a href="#" style="color:#347ab8">2</a></td>
+					            <td><a href="#" style="color:#5db75d">2</a></td>
+					            <td><a href="#" style="color:#3acccc">2</a></td>
+					        </tr>
+					        <tr>
+					                <td>IGS india pvt ltd</td>
+					               <td><a href="#" style="color:#347ab8">2</a></td>
+						            <td><a href="#" style="color:#5db75d">2</a></td>
+						            <td><a href="#" style="color:#3acccc">2</a></td>
+					            </tr>
+					            <tr>
+					                <td>IGS india pvt ltd</td>
+					                <td><a href="#" style="color:#347ab8">2</a></td>
+						            <td><a href="#" style="color:#5db75d">2</a></td>
+						            <td><a href="#" style="color:#3acccc">2</a></td>
+					            </tr>
+					            <tr>
+					                <td>IGS india pvt ltd</td>
+					                <td><a href="#" style="color:#347ab8">2</a></td>
+						            <td><a href="#" style="color:#5db75d">2</a></td>
+						            <td><a href="#" style="color:#3acccc">2</a></td>
+					            </tr>    
+					    </tbody>
+				   	</table>
+					<h6 class="link pull-right"><a href="#" style="color:#0d0c50;font-weight: bold;">View more</a></h6>
+				</div>
+
+					<!--**********end: week history**********-->
+
+			</div>
+		</div><!--end row-->
+		<br>
+
+		<div class="col-md-12 zeropadding ">
+			<div class="row mrt20">
+			    <h3 style="color: #0d0c50;margin-left: 14px;">Recruiting Companies</h3>
+					<div class="col-md-3 ">
+						<div class="dashboard-profile">
+							<div class="col-lg-12 dashboard-logo zeropadding margin-none">
+				          		<img src="images/IGS.jpg">
+				          	</div>
+					          	<div class="col-lg-12 zeropadding margin-none">
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-reqmts zeropadding margin-none">
+						          		<h6 class="mrt10"> Requirements</h6>
+						          		<h1 class="margin-none">7</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-apld zeropadding margin-none">
+						          		<h6 class="mrt10"> Applied</h6>
+						          		<h1 class="margin-none">6</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-srtltd zeropadding margin-none">
+						          		<h6 class="mrt10"> Shortlisted</h6>
+						          		<h1 class="margin-none">9</h1>
+						          	</div>
+						        </a>
+					          	</div>
+					        
+						</div><!--end dashboard-profile-->	
+					</div>
+
+					<div class="col-md-3 req-company">
+						<div class="dashboard-profile">
+							<div class="col-lg-12 dashboard-logo zeropadding margin-none">
+				          		<img src="images/IFOCUS.jpg">
+				          	</div>
+					          	<div class="col-lg-12 zeropadding margin-none">
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-reqmts zeropadding margin-none">
+						          		<h6 class="mrt10"> Requirements</h6>
+						          		<h1 class="margin-none">3</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-apld zeropadding margin-none">
+						          		<h6 class="mrt10"> Applied</h6>
+						          		<h1 class="margin-none">7</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-srtltd zeropadding margin-none">
+						          		<h6 class="mrt10"> Shortlisted</h6>
+						          		<h1 class="margin-none">2</h1>
+						          	</div>
+						        </a>
+					          	</div>
+					        
+						</div><!--end dashboard-profile-->	
+					</div>
+
+
+					<div class="col-md-3 req-company">
+						<div class="dashboard-profile">
+							<div class="col-lg-12 dashboard-logo zeropadding margin-none">
+				          		<img src="images/PACECOM.jpg">
+				          	</div>
+					          	<div class="col-lg-12 zeropadding margin-none">
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-reqmts zeropadding margin-none">
+						          		<h6 class="mrt10"> Requirements</h6>
+						          		<h1 class="margin-none">3</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-apld zeropadding margin-none">
+						          		<h6 class="mrt10"> Applied</h6>
+						          		<h1 class="margin-none">6</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-srtltd zeropadding margin-none">
+						          		<h6 class="mrt10"> Shortlisted</h6>
+						          		<h1 class="margin-none">9</h1>
+						          	</div>
+						        </a>
+					          	</div>
+					      
+						</div><!--end dashboard-profile-->	
+					</div>
+
+
+					<div class="col-md-3 req-company">
+						<div class="dashboard-profile">
+							<div class="col-lg-12 dashboard-logo zeropadding margin-none">
+				          		<img src="images/EDUPEDIA.jpg">
+				          	</div>
+					          	<div class="col-lg-12 zeropadding margin-none">
+					          	<a href="#">
+						          	<div class="col-md-4 col-xs-4 total-reqmts zeropadding margin-none">
+						          		<h6 class="mrt10"> Requirements</h6>
+						          		<h1 class="margin-none">2</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-apld zeropadding margin-none">
+						          		<h6 class="mrt10"> Applied</h6>
+						          		<h1 class="margin-none">5</h1>
+						          	</div>
+						        </a>
+						        <a href="#">
+						          	<div class="col-md-4 col-xs-4 total-srtltd zeropadding margin-none">
+						          		<h6 class="mrt10"> Shortlisted</h6>
+						          		<h1 class="margin-none">8</h1>
+						          	</div>
+						        </a>
+					          	</div>
+					       
+						</div><!--end dashboard-profile-->	
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</div><!--end container-->
+</div><!--end container-fluid-->
+</section>
+
+<!--*****************************************************end: dashboard ******************************************************-->
+
+</body>
+</html>
